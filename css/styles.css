@@ -1,0 +1,203 @@
+:root {
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-brand: #bff6c7;
+    --color-border: rgb(147, 238, 147);
+    --color-invert: #e6ef5c;
+    --color-accent: #2F303A;
+    --color-action: #188CE8;
+    --color-fon-slip: #5b82cf;
+    --color-footer: #a4e0ad;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary); font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.book {
+    font-weight: normal;
+    text-align: center;
+}
+
+.wrapper-brand {
+    background-color: var(--color-brand);
+    
+}
+
+.wrapper-slip {
+    background-color: var(--color-fon-slip);
+   }
+
+.container__audio {
+    display: block;
+    padding-left: 20px;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0, auto;
+    max-width: 100%;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+.container-poem {
+    
+    height: 750px;
+    width: 520px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0, auto;
+    border: 5px var(--color-border) solid;
+    padding-top: 120px;
+    border-radius: 48px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.im1 {
+    background-image: url("../img/9.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.im2 {
+    background-image: url("../img/10.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+
+}
+
+.im3 {
+    background-image: url("../img/11.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.im4 {
+    background-image: url("../img/44.jpg");
+    width: 100%;
+    height: 100%;
+    /* background-size: cover; */
+    object-fit: cover;
+}
+.im5 {
+    background-image: url("../img/3.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.im6 {
+    background-image: url("../img/14.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.im7 {
+    background-image: url("../img/14.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.im8 {
+    background-image: url("../img/15.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.im9 {
+    background-image: url("../img/16.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.img1 {
+    background-image: url("../img/4.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.img2 {
+    background-image: url("../img/slipbaby.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.img3 {
+    background-image: url("../img/slipm.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.kot-img {
+    height: 850px;
+    margin-top: 50px;
+    background-image: url("../img/kot.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.img {
+    height: 850px;
+    margin-top: 50px;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+ footer {
+    background: var(--color-footer);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .auth {
+    margin: 30px;
+ }
+@media screen and (min-width: 390px) and (max-width: 600px) {
+    body {
+        width: 100%;
+    }    
+    .container-poem {
+        max-width: 300px;
+       
+    }
+} 
